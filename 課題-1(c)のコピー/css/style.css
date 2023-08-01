@@ -1,0 +1,135 @@
+body{
+    background-color: rgb(165, 69, 0);
+}
+h2{
+    color: #631aa888;
+}
+h1{
+    color: #4aa77a88;
+}
+h3{
+    color: rgb(12, 102, 180);
+}
+.book-review{
+    width: 500px;
+    background: rgb(204, 115, 14);
+    padding: 10px;
+    margin: 100px auto;
+    border-radius: 30px;
+    position: relative;
+}
+
+.icon{
+    position: relative;
+    top: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 300px;
+    display: flex;
+}
+.icon div{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    position: relative;
+    cursor: pointer;
+    margin-right: 15px;
+}
+.icon div a{
+    display: inline block;
+    position:relative;
+    top: 50%;
+    left:40%;
+    transform: translate(50%, 50%);
+    color: rgb(7, 30, 240);
+    font-size: 10px;
+}
+
+.book1 div{
+    width: 500px;
+    background: rgb(237, 134, 16);
+    padding: 10px;
+    margin: 100px auto;
+    border-radius: 30px;
+    position: relative;
+
+}
+img:hover{
+    opacity: 0.5;
+    cursor: pointer;
+}
+img{
+    border-radius: 20%;
+}
+
+.form-item .fas{
+    position: absolute;
+    top: 25px;
+    left: 15px;
+}
+
+
+.book2 div{
+    width: 500px;
+    background: rgb(198, 190, 181);
+    padding: 10px;
+    border-radius: 30px;
+    margin: 100px auto;
+    position: relative;
+
+}
+
+.book3 div{
+    width: 500px;
+    background: rgb(198, 190, 181);
+    padding: 10px;
+    border-radius: 30px;
+    margin: 100px auto;
+    position: relative;
+
+}
+.contact div{
+    width: 500px;
+    background: rgb(198, 190, 181);
+    padding: 10px;
+    border-radius: 30px;
+    margin: 100px auto;
+    position: relative;
+
+}
+.form-item .input{
+    width: 100%;
+    margin-bottom: 10px;
+    border-radius: 30px;
+    border: none;
+    padding: 25px 40px;
+    box-sizing: border-box;
+    background: rgb(238, 237, 234);
+}
+.form-item{
+    position: relative;
+}
+.form-item .fas{
+    position: absolute;
+    top: 25px;
+    left: 15px;
+} .btn{
+    text-align: center;
+    width: 95%;
+    background: #a2757a;
+    border-radius: 20px;
+    padding: 10px 6px;
+    color: #f8faf0;
+    cursor: pointer;
+    margin: 10px;
+    font-size: 20px;
+}
+
+.form, .form-item{
+    top: 20px;
+        width: 100%;
+}
+table{
+    margin: auto;
+}
+
